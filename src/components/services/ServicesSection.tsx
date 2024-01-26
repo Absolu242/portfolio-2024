@@ -47,7 +47,7 @@ export function ServicesSection() {
   const servicesList: Array<service> = [
     {
       name: "Website Design",
-      price: "Starting $3800",
+      price: "Starting at $3800",
       link: "https://google.com",
       tools: "Webflow , Framer , Shopify",
     },
@@ -65,7 +65,7 @@ export function ServicesSection() {
     },
     {
       name: "Social Media Management / Marketing",
-      price: "Starting $2500 per month",
+      price: "Starting at $2500 per month",
       link: "https://google.com",
       tools: "LinkedIn , Instagram , Facebook , etc",
     },
