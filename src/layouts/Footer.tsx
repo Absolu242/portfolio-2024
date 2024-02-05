@@ -19,28 +19,34 @@ import {
 
 export function Footer() {
   return (
-    <Box width={"100%"} paddingTop={"15rem"}>
+    <Box width={"100%"} paddingTop={"10rem"}>
       <Box className="center-layout">
         <Box textAlign={"center"} marginBottom={"5rem"}>
           <Heading
             fontFamily={"Calistoga"}
-            fontSize={"50px"}
+            fontSize={{
+              base: "2.5rem",
+              md: "4rem",
+              lg: "5.5rem",
+            }}
             letterSpacing={".2rem"}
           >
             {`  Let's Collaborate`}
           </Heading>
 
-          <Button
-            borderRadius={"50"}
-            padding={"2rem"}
-            fontSize={"medium"}
-            background="#8CEF22"
-            color="#000"
-            border="1px solid #8CEF22"
-            marginTop={"2rem"}
-          >
-            Work With Me
-          </Button>
+          <a href="mailto:rahanbakala@outlook.com">
+            <Button
+              borderRadius={"50"}
+              padding={"2rem"}
+              fontSize={"medium"}
+              background="#8CEF22"
+              color="#000"
+              border="1px solid #8CEF22"
+              marginTop={"2rem"}
+            >
+              Work With Me
+            </Button>
+          </a>
         </Box>
 
         <Flex
@@ -85,7 +91,7 @@ export function Footer() {
 
         <Flex
           w={"100%"}
-          h="20vh"
+          paddingBottom={"5rem"}
           justifyContent={"center"}
           wrap={"wrap"}
         >

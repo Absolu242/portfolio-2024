@@ -16,7 +16,14 @@ export function ServiceRow({ service, hideBorder }: any) {
       alignItems={"center"}
     >
       <Box>
-        <Text fontFamily={"Calistoga"} fontSize={"3rem"}>
+        <Text
+          fontFamily={"Calistoga"}
+          fontSize={{
+            base: "1.8rem",
+            md: "2.5rem",
+            lg: "3rem",
+          }}
+        >
           {service.name}
         </Text>
         <Text color="#ccc" fontSize={"1.1rem"}>
@@ -30,21 +37,29 @@ export function ServiceRow({ service, hideBorder }: any) {
           {service.price}
         </Text>
       </Box>
-      <Button
-        borderRadius={"50"}
-        padding={"2rem"}
-        fontSize={"medium"}
-        border={"1px solid white"}
-        background={"none"}
-        color="white"
-        _hover={{
-          background: "#8CEF22",
-          color: "#000",
-          border: "1px solid #8CEF22",
-        }}
-      >
-        Get Started
-      </Button>
+
+      <a href={service.link} target="_blank">
+        <Button
+          borderRadius={"50"}
+          padding={"2rem"}
+          //fontSize={"medium"}
+          fontSize={{
+            base: "small",
+            md: "small",
+            lg: "medium",
+          }}
+          border={"1px solid white"}
+          background={"none"}
+          color="white"
+          _hover={{
+            background: "#8CEF22",
+            color: "#000",
+            border: "1px solid #8CEF22",
+          }}
+        >
+          Get Started
+        </Button>
+      </a>
     </Flex>
   );
 }
