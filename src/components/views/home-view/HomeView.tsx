@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
-import { HeroSection } from "@src/components/sections/hero";
-import { ProjectsSection } from "@src/components/sections/projects";
+import { HeroSection } from "@src/components/sections/Hero";
+import { ProjectsSection } from "@src/components/sections/Projects";
 import { ServicesSection } from "@src/components/services";
 import React from "react";
 
