@@ -156,20 +156,6 @@ export default function Navbar() {
           >
             Services
           </Link>
-          <a href="mailto:rahanbakala@outlook.com">
-            <Button
-              margin={"1rem 0"}
-              borderRadius={"50"}
-              padding={"2rem"}
-              fontSize={"medium"}
-              border={"1px solid white"}
-              background={"none"}
-              color="white"
-              _hover={{ background: "#8CEF22" }}
-            >
-              Work With Me
-            </Button>
-          </a>
         </Flex>
       </Box>
     </Box>

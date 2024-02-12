@@ -11,7 +11,7 @@ export function HeroSection() {
       width={"100%"}
       //height={"100vh"}
       paddingTop={"3rem"}
-      id="hero"
+      id="home"
     >
       <Box className="center-layout">
         <Navbar />
@@ -55,9 +55,9 @@ export function HeroSection() {
 
             <Text
               fontSize={{
-                base: "1.1rem",
-                md: "1.2rem",
-                lg: "1.5rem",
+                base: "1.3rem",
+                md: "1.3rem",
+                lg: "1.7rem",
               }}
               color={"#cccccc"}
             >
@@ -95,68 +95,91 @@ export function HeroSection() {
             wrap={"wrap"}
             alignItems={"center"}
           >
-            <Image
-              className="img-logo-style"
-              src="./logos/vscode.png"
-              alt="logo"
-              margin={"0 1rem"}
-            />
-            <Image
-              src="./logos/Linkedin.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-              // width={"3rem"}
-            />
-            <Image
-              src="./logos/Webflow.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/nextjs.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/Figma.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-              width={"3rem"}
-            />
-            <Image
-              src="./logos/react.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/html.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/typescript.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/Shopify.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
-            <Image
-              src="./logos/facebook.png"
-              className="img-logo-style"
-              alt="logo"
-              margin={" 1rem"}
-            />
+            <Flex
+              justifyContent={"space-evenly"}
+              width={{
+                base: "100%",
+                md: "70%",
+                lg: "50%",
+              }}
+              wrap={"wrap"}
+              alignItems={"center"}
+            >
+              <Image
+                className="img-logo-style"
+                src="./logos/vscode.png"
+                alt="logo"
+                margin={"0 1rem"}
+              />
+              <Image
+                src="./logos/Linkedin.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+                // width={"3rem"}
+              />
+              <Image
+                src="./logos/Webflow.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/nextjs.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/Figma.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+                width={"3rem"}
+              />
+            </Flex>
+
+            <Flex
+              justifyContent={"space-evenly"}
+              width={{
+                base: "100%",
+                md: "70%",
+                lg: "50%",
+              }}
+              wrap={"wrap"}
+              alignItems={"center"}
+            >
+              <Image
+                src="./logos/react.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/html.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/typescript.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/Shopify.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+              <Image
+                src="./logos/facebook.png"
+                className="img-logo-style"
+                alt="logo"
+                margin={" 1rem"}
+              />
+            </Flex>
           </Flex>
 
           <Box position="relative" width="100%" height="100%">
