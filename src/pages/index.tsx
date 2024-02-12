@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rahan Bouess </title>
+        <title>Rahan Bakala Bouess</title>
         <meta
           name="description"
           content="I help brands expand their reach and boost their

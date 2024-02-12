@@ -1,5 +1,4 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
-import Banner from "@src/components/Banner";
 import Navbar from "@src/layouts/Navbar";
 import React from "react";
 
