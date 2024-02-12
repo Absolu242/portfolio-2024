@@ -1,16 +1,6 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Link,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
-import { ServiceRow } from "../service-row";
+import { ServiceRow } from "../ServiceRow/ServiceRow";
 
 export function ServicesSection() {
   type service = {
