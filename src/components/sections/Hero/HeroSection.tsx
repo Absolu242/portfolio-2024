@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
-import Navbar from "@src/layouts/Navbar";
+import Navbar from "../../../layouts/Navbar";
 import React from "react";
 
 export function HeroSection() {

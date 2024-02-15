@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
-import { HeroSection } from "@src/Components/Sections/Hero";
-import { ProjectsSection } from "@src/Components/Sections/Projects";
-import { ServicesSection } from "@src/Components/Services";
+import { HeroSection } from "../../../Components/Sections/Hero";
+import { ProjectsSection } from "../../../Components/Sections/Projects";
+import { ServicesSection } from "../../../Components/Services";
 import React from "react";
 
 export function HomeView() {
